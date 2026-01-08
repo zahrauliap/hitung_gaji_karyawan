@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Gaji Karyawan</title>
+    <link rel="stylesheet" href="style_gaji.css">
+</head>
+<body>
+
+    <table class="main-table">
+        <thead>
+            <tr>
+                <th>INPUTAN</th>
+                <th>OUTPUT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="input-section">
+                    <h1>Hitung Gaji Karyawan</h1>
+                    <div class="form-group">
+                        <label>Gaji Pokok (Rp):</label>
+                        <input type="number" id="gajiPokok" placeholder="Masukkan angka...">
+                    </div>
+                    <div class="form-group">
+                        <label>Jumlah Jam Lembur:</label>
+                        <input type="number" id="jamLembur" placeholder="Masukkan jam...">
+                    </div>
+                    <button onclick="hitungGaji()">Hitung Gaji</button>
+                </td>
+
+                <td class="output-section">
+                    <div id="result">
+                        <p>Gaji Pokok: <span id="outGajiPokok">-</span></p>
+                        <p>Total Gaji Lembur: <span id="outGajiLembur">-</span></p>
+                        <p>Gaji Kotor: <span id="outGajiKotor">-</span></p>
+                        <p>Pajak: <span id="outPajak">-</span></p>
+                        <p class="bold-text">Gaji Bersih: <span id="outGajiBersih">-</span></p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script_gaji.js"></script>
+</body>
+</html>

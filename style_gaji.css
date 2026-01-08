@@ -1,0 +1,63 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.main-table {
+    width: 850px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+td {
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 30px;
+    width: 50%;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 150px;
+    font-size: 16px;
+}
+
+input {
+    padding: 5px;
+    width: 180px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Bagian Output */
+.output-section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
